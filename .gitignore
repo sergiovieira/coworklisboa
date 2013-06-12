@@ -1,1 +1,10 @@
 *DS_STORE
+*.gem
+*.rbc
+.bundle
+.config
+
+# YARD artifacts
+.yardoc
+_yardoc
+doc/

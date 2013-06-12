@@ -1,6 +1,7 @@
 # Cowork Lisboa Dashboard
 
 This is a dashboard related to the community at Cowork Lisboa.
+View example at http://coworklisboa.herokuapp.com/coworklisboa
 
 ## install on your machine && run
 

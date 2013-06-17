@@ -10,7 +10,7 @@ Exemplo: http://coworklisboa.herokuapp.com/coworklisboa
 
 ## Preview
 
-[!CoworkLisboa](http://new.tinygrab.com/2b80d83ed541435a1f19effe7d2b0db6abde7f5771.png)
+![CoworkLisboa](http://new.tinygrab.com/2b80d83ed541435a1f19effe7d2b0db6abde7f5771.png "CoworkLisboa")
 
 ## install on your machine && run
 

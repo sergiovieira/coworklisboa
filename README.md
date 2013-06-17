@@ -1,7 +1,16 @@
-# Cowork Lisboa Dashboard
+# CoworkLisboa Dashboard
 
+EN:
 This is a dashboard related to the community at Cowork Lisboa.
 View example at http://coworklisboa.herokuapp.com/coworklisboa
+
+PT:
+Este é um painel da comunidade do CoworkLisboa. Está vísivel no espaço do CoworkLisboa e actualizações são benvindas. Todos podem colaborar.
+Exemplo: http://coworklisboa.herokuapp.com/coworklisboa
+
+## Preview
+
+[!CoworkLisboa](http://new.tinygrab.com/2b80d83ed541435a1f19effe7d2b0db6abde7f5771.png)
 
 ## install on your machine && run
 

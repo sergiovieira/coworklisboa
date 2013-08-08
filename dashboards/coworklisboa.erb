@@ -1,4 +1,4 @@
-<% content_for(:title) { "CoworkLisboa Dashboard" } %>
+ 
 <script type='text/javascript'>
 $(function() {
 Dashing.gridsterLayout('[{"col":1,"row":1,"size_x":1,"size_y":1},{"col":2,"row":1,"size_x":1,"size_y":1},{"col":3,"row":1,"size_x":1,"size_y":1},{"col":4,"row":1,"size_x":1,"size_y":1},{"col":1,"row":2,"size_x":1,"size_y":1},{"col":2,"row":2,"size_x":2,"size_y":1},{"col":4,"row":2,"size_x":1,"size_y":1}]')
@@ -7,28 +7,28 @@ Dashing.gridsterLayout('[{"col":1,"row":1,"size_x":1,"size_y":1},{"col":2,"row":
 <div class="gridster">
   <ul>
     <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-id="welcome" data-view="Text" style="background-color:#498234" data-title="Olá" data-text="Este é um projecto colaborativo do CoworkLisboa." data-moreinfo="Queres saber mais?"></div>
+      <div data-id="welcome" data-view="Text" style="background-color:#498234" data-title="Olá" data-text="Este é um projecto colaborativo do CoworkLisboa." data-moreinfo="Queres saber mais? Vai a https://github.com/psousa/coworklisboa"></div>
     </li>
     <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
       <div data-id="klimato" data-view="Klimato"></div>
     </li>
     <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
       <div data-view="Clock" style="background-color:#D4CC49;"></div>
-      <i class="icon-time icon-background"></i>
-    </li>
-    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-id="facebook_likes" data-view="Number" data-title="Seguidores" style="background-color: #1d9fe3"></div>
-       <i class="icon-facebook icon-background"></i>
     </li>
     <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
       <div data-id="instadash" data-view="Instadash"></div>
+    </li>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="facebook_likes" data-view="Number" data-title="Likes" style="background-color: #1d9fe3"></div>
+       <i class="icon-facebook icon-background"></i>
     </li>
     <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
       <div data-id="twitter_mentions" data-view="Comments" style="background-color:#71388a;" data-moreinfo="Tweets tagged with coworklisboa"></div>
       <i class="icon-twitter icon-background"></i>
     </li>
     <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-id="synergy" data-view="Meter" data-title="Velocidade Net" data-min="0" data-max="100"></div>
+      <div data-id="startup_quote" data-view="Image" data-title="Startup quote" style="padding:0;vertical-align:center;background:#000;">
+      </div>
     </li>
   </ul>
   

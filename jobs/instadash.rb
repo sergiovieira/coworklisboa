@@ -10,7 +10,7 @@ end
 instadash_location_lat = '38.703313'
 instadash_location_long = '-9.179013'
  
-SCHEDULER.every '10m', :first_in => 0 do |job|
+SCHEDULER.every '20m', :first_in => 0 do |job|
   photos = Instagram.media_search(instadash_location_lat,instadash_location_long)
   if photos
     photos.map! do |photo|

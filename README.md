@@ -15,13 +15,16 @@ Exemplo: http://coworklisboa.herokuapp.com/coworklisboa
 ## install on your machine && run
 
 Make sure you have ruby and sinatra installed.
+Install the gem from the command line. Make sure you have Ruby 1.9
+    gem install dashing
 Clone the repository on your machine.
     git clone git@github.com:psousa/coworklisboa.git
 Run bundle
     bundle
 Start the server
     dashing start
-
+Go to your browser
+    http://localhost:3030/coworklisboa
 
 ## Collaborate
 

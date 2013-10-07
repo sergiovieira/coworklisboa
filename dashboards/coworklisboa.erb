@@ -1,37 +1,53 @@
  
 <script type='text/javascript'>
 $(function() {
-Dashing.gridsterLayout('[{"col":1,"row":1,"size_x":1,"size_y":1},{"col":2,"row":1,"size_x":1,"size_y":1},{"col":3,"row":1,"size_x":1,"size_y":1},{"col":4,"row":1,"size_x":1,"size_y":1},{"col":1,"row":2,"size_x":1,"size_y":1},{"col":2,"row":2,"size_x":2,"size_y":1},{"col":4,"row":2,"size_x":1,"size_y":1}]')
+//Dashing.gridsterLayout('[{"col":1,"row":1,"size_x":1,"size_y":1},{"col":2,"row":1,"size_x":1,"size_y":1},{"col":3,"row":1,"size_x":1,"size_y":1},{"col":4,"row":1,"size_x":1,"size_y":1},{"col":1,"row":2,"size_x":1,"size_y":1},{"col":2,"row":2,"size_x":2,"size_y":1},{"col":4,"row":2,"size_x":1,"size_y":1}]')
+});
+</script>
+
+<script type='text/javascript'>
+$(function() {
+  // These settings override the defaults set in application.coffee. You can do this on a per dashboard basis.
+ 
+  Dashing.widget_base_dimensions = [370, 340]
+  Dashing.numColumns = 5
 });
 </script>
 <div class="gridster">
   <ul>
     <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-id="welcome" data-view="Text" style="background-color:#498234" data-title="Olá" data-text="Este é um projecto colaborativo do CoworkLisboa." data-moreinfo="Queres saber mais? Vai a https://github.com/psousa/coworklisboa"></div>
+      <div data-id="welcome" data-view="Text"  data-title="CoworkLisboa"  data-text="<img src='/assets/qrcode.png' height='180px'/>"  data-moreinfo="Queres saber mais? "></div>
     </li>
+
     <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
       <div data-id="klimato" data-view="Klimato"></div>
     </li>
     <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-view="Clock" style="background-color:#D4CC49;"></div>
+      <div data-id="the_time" data-view="Clock"></div>
     </li>
     <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
       <div data-id="instadash" data-view="Instadash"></div>
     </li>
     <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-id="facebook_likes" data-view="Number" data-title="Likes" style="background-color: #1d9fe3"></div>
+      <div data-id="facebook_likes" data-view="Number" data-title="Likes"></div>
        <i class="icon-facebook icon-background"></i>
     </li>
     <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
-      <div data-id="twitter_mentions" data-view="Comments" style="background-color:#71388a;" data-moreinfo="Tweets tagged with coworklisboa"></div>
+      <div data-id="twitter_mentions" data-view="Comments" data-moreinfo="Tweets sobre coworklisboa"></div>
       <i class="icon-twitter icon-background"></i>
     </li>
     <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-id="startup_quote" data-view="Image" data-title="Startup quote" style="padding:0;vertical-align:center;background:#000;">
+      <div data-id="startup_quote" data-view="Image" data-title="Startup quote">
       </div>
     </li>
+<!--     <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="coworklxfeed" data-view="News" data-title="facebook.com/Coworklisboalx" data-interval="20"></div>
+    </li> -->
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="publico" data-view="News" data-title="Público" data-interval="60"></div>
+    </li>
   </ul>
-  
+   
   <!-- <center><div style="font-size: 12px">Try this: curl -d '{ "auth_token": "YOUR_AUTH_TOKEN", "text": "Hey, Look what I can do!" }' \http://<%=request.host%>:<%=request.port%>/widgets/welcome</div></center>
  -->
 

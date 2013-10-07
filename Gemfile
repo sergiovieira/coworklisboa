@@ -7,3 +7,7 @@ git 'https://github.com/Instagram/instagram-ruby-gem.git' do
 end
 gem 'twitter'
 gem 'simple-rss'
+
+#rss feed
+gem 'nokogiri'
+gem 'htmlentities'

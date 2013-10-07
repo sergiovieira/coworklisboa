@@ -36,9 +36,13 @@ GEM
       faraday (>= 0.7.4, < 0.9)
     hashie (2.0.5)
     hike (1.2.3)
+    htmlentities (4.3.1)
     json (1.7.7)
+    mini_portile (0.5.0)
     multi_json (1.7.6)
     multipart-post (1.2.0)
+    nokogiri (1.6.0)
+      mini_portile (~> 0.5.0)
     rack (1.5.2)
     rack-protection (1.5.0)
       rack
@@ -82,7 +86,9 @@ PLATFORMS
 
 DEPENDENCIES
   dashing
+  htmlentities
   instagram!
   json
+  nokogiri
   simple-rss
   twitter

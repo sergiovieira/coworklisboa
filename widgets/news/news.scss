@@ -1,22 +1,31 @@
 // ----------------------------------------------------------------------------
 // Sass declarations
 // ----------------------------------------------------------------------------
-$background-color:  #000000;
+$background-color:  #47bbb3;
+$value-color:       #fff;
+ 
+$title-color:       rgba(255, 255, 255, 0.7);;
+$moreinfo-color:    rgba(255, 255, 255, 0.8);;
  
 // ----------------------------------------------------------------------------
-// Widget-comment styles
+// Widget-weather styles
 // ----------------------------------------------------------------------------
-.widget-instadash {
+.widget-news {
  
   background-color: $background-color;
+  vertical-align: baseline !important;
  
-  .photo-container {
+  .headline-container {
     display: none;
   }
-  img{
-    width: 265px;
-    height: 265px;
+ 
+  .description {
+    font-size: 0.8em;
+    color: $moreinfo-color;
   }
-  h4{color:#efefef;font-weight:normal;padding-top:5px; font-size:16px; text-transform:uppercase}
+ 
+  .heading{
+    color: black;
+  }
  
 }

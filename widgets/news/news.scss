@@ -1,7 +1,7 @@
 // ----------------------------------------------------------------------------
 // Sass declarations
 // ----------------------------------------------------------------------------
-$background-color:  #47bbb3;
+$background-color:  #be3a31;
 $value-color:       #fff;
  
 $title-color:       rgba(255, 255, 255, 0.7);;
@@ -25,7 +25,11 @@ $moreinfo-color:    rgba(255, 255, 255, 0.8);;
   }
  
   .heading{
-    color: black;
+    color: #fff;
+    font-size: 25px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 20px;
+    margin-bottom: 20px;  
   }
  
 }

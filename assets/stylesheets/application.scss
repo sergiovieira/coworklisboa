@@ -5,7 +5,7 @@
 // ----------------------------------------------------------------------------
 // Sass declarations
 // ----------------------------------------------------------------------------
-$background-color: #222;
+$background-color: #fff;
 $text-color: #fff;
 
 $bg-red: #C80019;
@@ -99,6 +99,9 @@ h1 {
   text-align: center;
   font-size: 30px;
   font-weight: 400;
+}
+.big_title{
+  color: black;
 }
 h2 {
   text-transform: uppercase;
@@ -262,16 +265,16 @@ h3 {
 // ----------------------------------------------------------------------------
 
 .welcome{
-  background: #498234;
+  background: #30ad63;
 }
 .the_time{
-  background-color:#D4CC49;
+  background-color: #f0c330;
 }
 .facebook_likes{
-  background-color: #1d9fe3;
+  background-color: #3c5b98;
 }
 .twitter_mentions{
-  background-color:#71388a;
+  background-color: #2ab3e8;
 }
 .startup_quote{
   padding:0;vertical-align:center;background:#000;
@@ -281,6 +284,7 @@ h3 {
   }
 }
 .publico{
-  background-color: $bg-red;
+  background-color: #be3a31;
 }
+
 

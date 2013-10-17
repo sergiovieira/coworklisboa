@@ -7,14 +7,15 @@ Instagram.configure do |config|
 end
  
 # Latitude, Longitude for location
-instadash_location_lat = '38.703313'
-instadash_location_long = '-9.179013'
+instadash_location_lat = '38.702424'
+instadash_location_long = '-9.178376'
+instadash_distance = '500'
  
 SCHEDULER.every '20m', :first_in => 0 do |job|
-  photos = Instagram.media_search(instadash_location_lat,instadash_location_long)
+  photos = Instagram.media_search(instadash_location_lat, instadash_location_long, {:distance => instadash_distance})
   if photos
     photos.map! do |photo|
-      { photo: "#{photo.images.low_resolution.url}" }
+      { photo: "#{photo.images.standard_resolution.url}" }
     end    
   end
   send_event('instadash', photos: photos)

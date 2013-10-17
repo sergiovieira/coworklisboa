@@ -10,7 +10,7 @@ class Dashing.Instadash extends Dashing.Widget
     @currentIndex = 0
  
   startCarousel: ->
-    setInterval(@nextPhoto, 5000)
+    setInterval(@nextPhoto, 8000)
  
   nextPhoto: =>
     photos = @get('photos')

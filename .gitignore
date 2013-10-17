@@ -3,6 +3,7 @@
 *.rbc
 .bundle
 .config
+*~
 
 # YARD artifacts
 .yardoc

@@ -9,7 +9,7 @@ $(function() {
 $(function() {
   // These settings override the defaults set in application.coffee. You can do this on a per dashboard basis.
  
-  Dashing.widget_base_dimensions = [370, 340]
+  Dashing.widget_base_dimensions = [350, 350]
   Dashing.numColumns = 5
 });
 </script>
@@ -18,30 +18,35 @@ $(function() {
 <div class="gridster">
   <ul>
     <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-id="welcome" data-view="Text" data-title="CoworkLisboa" data-text="<img src='/assets/qrcode.png' height='180px'/>" data-moreinfo="Curioso? Segue o QR Code para saber mais."></div>
+      <div data-id="welcome" data-view="Image"  data-image="/assets/logo.png"></div>
     </li>
     <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-id="klimato" data-view="Klimato"></div>
-    </li>    
+      <div data-id="klimato" data-view="Klimato" data-location="Lisboa"></div>
+    </li>  
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="instadash" data-view="Instadash"></div>
+    </li>
     <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
       <div data-id="the_time" data-view="Clock"></div>
     </li>
-    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-id="instadash" data-view="Instadash"></div>
+    <li data-row="2" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="twitter_mentions" data-view="Comments" data-moreinfo="Tweets sobre coworklisboa"></div>
+      <i class="icon-twitter icon-background"></i>
     </li>
     <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
       <div data-id="startup_quote" data-view="Image" data-title="Startup quote">
       </div>
     </li>
     <li data-row="2" data-col="1" data-sizex="2" data-sizey="1">
-      <div data-id="twitter_mentions" data-view="Comments" data-moreinfo="Tweets sobre coworklisboa"></div>
-      <i class="icon-twitter icon-background"></i>
-    </li>
-    <li data-row="2" data-col="1" data-sizex="2" data-sizey="1">
-      <div data-id="publico" data-view="News" data-title="Notícias Público" data-interval="60"></div>
+      <div data-id="publico" data-view="News" data-moreinfo="<i>fonte: </i> Jornal Público" data-interval="60"></div>
     </li>
     <li data-row="2" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-id="facebook_likes" data-view="Number" data-title="Coworklisboalx"  data-moreinfo="Segue-nos no Facebook."></div>
+      <div data-id="facebook_likes" data-view="Number" data-title="Coworklisboalx"  data-moreinfo="<i>Likes</i>"></div>
+      <i class="icon-facebook icon-background"></i>
+    </li>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="github" data-view="Text" data-title="Para saber mais..." data-text="<img src='/assets/code.png' height='150px'/>" data-moreinfo="github.com/psousa/coworklisboa"></div>
+
     </li>
     
 

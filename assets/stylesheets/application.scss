@@ -124,7 +124,7 @@ h3 {
 // Base widget styles
 // ----------------------------------------------------------------------------
 .gridster {
-  margin: 0px auto;
+  margin: auto;
 }
 
 .icon-background {
@@ -253,7 +253,7 @@ h3 {
 }
 
 #container {
-  padding-top: 5px;
+  padding-top: 95px;
 }
 
 
@@ -270,7 +270,7 @@ h3 {
 // ----------------------------------------------------------------------------
 
 .welcome{
-  background: #30ad63;
+  background: #9c4274;
 }
 .the_time{
   background-color: #f0c330;
@@ -281,15 +281,44 @@ h3 {
 .twitter_mentions{
   background-color: #2ab3e8;
 }
+.instadash{
+  padding:0;
+}
 .startup_quote{
-  padding:0;vertical-align:center;background:#000;
+  padding:0;
+  vertical-align:center;
+  background: #000;
+  
   img{
-    // width:100%;
-    height:340px
+  /* width: 100%; */
+    max-height: 350px;
+    max-width: 350px;
   }
 }
+
+.klimato {
+	h1 {
+		font-size: 90px;
+        }
+        h2 {
+		font-size: 130px;
+	}
+}
+
 .publico{
   background-color: #be3a31;
+  .title {
+    width: 88%;
+    margin: auto auto 30px auto;
+
+  }
+  .headline {
+    width: 60%; 
+    margin: auto;
+  }
+  .more-info {
+    color: rgba(255, 255, 255, 0.7); 
+  }
 }
 
 

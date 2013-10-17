@@ -5,6 +5,8 @@
 #= require_directory .
 #= require_tree ../../widgets
 
+#= require moment-with-langs.js
+
 console.log("Yeah! The dashboard has started!")
 
 Dashing.on 'ready', ->

@@ -6,6 +6,7 @@
 #= require_tree ../../widgets
 
 #= require moment-with-langs.js
+#= require qrcode.js
 
 console.log("Yeah! The dashboard has started!")
 
